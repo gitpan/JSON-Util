@@ -1,0 +1,84 @@
+NAME
+    JSON::Util - encode/decode with artificial stupidity
+
+SYNOPSIS
+        use JSON::Util;
+        $data = JSON::Util->decode('{"bar": "foo"}');
+        $data = JSON::Util->decode('some.json');
+        JSON::Util->encode({ 'foo' => 'bar' }, 'someother.json');
+
+        $data = JSON::Util->decode(['..', 'folder', some.json]);
+        JSON::Util->encode([123,321], ['..', 'folder', someother.json]);
+
+        print JSON::Util->encode([987,789]), "\n";
+        print JSON::Util->encode({987 => 789}), "\n";
+
+        my $json = JSON::Util->new(pretty => 0, convert_blessed => 1);
+        print $json->encode([ $object, $object2 ]);
+
+DESCRIPTION
+METHODS
+  new()
+
+    Object constructor. Needed only when the default_json configuration
+    needs to be changed. Any key/value passed as parameter will be called on
+    `<JSON::XS-'new()>> as `<$json-'$key($value)>>.
+
+  default_json
+
+    Returns `<JSON::XS-'new()>> with:
+
+            'utf8'            => 1,
+            'pretty'          => 1,
+            'convert_blessed' => 1,
+
+  json
+
+    Returns current JSON::XS object.
+
+  decode($what)
+
+    Return ref with decoded `$what'. For definition of `$what' can be please
+    see IO::Any.
+
+  encode($data, [$where])
+
+    Returns encoded `$data'. If `$where' is passed then then the result is
+    written there. See IO::Any for `$where' options.
+
+AUTHOR
+    Jozef Kutej, `<jkutej at cpan.org>'
+
+BUGS
+    Please report any bugs or feature requests to `bug-json-util at
+    rt.cpan.org', or through the web interface at
+    http://rt.cpan.org/NoAuth/ReportBug.html?Queue=JSON-Util. I will be
+    notified, and then you'll automatically be notified of progress on your
+    bug as I make changes.
+
+SUPPORT
+    You can find documentation for this module with the perldoc command.
+
+        perldoc JSON::Util
+
+    You can also look for information at:
+
+    * RT: CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=JSON-Util
+
+    * AnnoCPAN: Annotated CPAN documentation
+        http://annocpan.org/dist/JSON-Util
+
+    * CPAN Ratings
+        http://cpanratings.perl.org/d/JSON-Util
+
+    * Search CPAN
+        http://search.cpan.org/dist/JSON-Util
+
+ACKNOWLEDGEMENTS
+COPYRIGHT & LICENSE
+    Copyright 2009 Jozef Kutej, all rights reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
