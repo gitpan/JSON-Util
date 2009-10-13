@@ -1,6 +1,6 @@
 ---
 name: JSON-Util
-version: 0.02
+version: 0.03
 author:
   - 'Jozef Kutej <jkutej@cpan.org>'
 abstract: encode/decode with artificial stupidity
@@ -21,7 +21,7 @@ configure_requires:
 provides:
   JSON::Util:
     file: lib/JSON/Util.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.35
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
