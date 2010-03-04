@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.55.
+signed via the Module::Signature module, version 0.61.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -15,13 +15,13 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 385dce2ea6937b0861ae5cf45c5ce11be04e6e79 Build.PL
-SHA1 0a3ef1db8a943f1fc9177b2f2cb4fef26c727e8d Changes
-SHA1 733ae584327a83e17e0e53a4912215529d0d466e MANIFEST
-SHA1 9b4bf290244b042893ff92acbd7cd8ec6fed0336 META.yml
-SHA1 c783ba4d470f49b73b4a32309ab4d6ce04c96113 Makefile.PL
-SHA1 2c9abcf7d5238ae83a9272cfbc1cdea351938994 README
-SHA1 d6dac2fe9e476f96ddc7260d716eb14034d0c3ec lib/JSON/Util.pm
-SHA1 024002fb579c6fdeea0fad6066d7d7d499dfe254 t/01_JSON-Util.t
+SHA1 7f6b3b52281890645ce9607bf3f36faf5ed1dc27 Changes
+SHA1 e6afd161f043388da8f8436ef8c9ad9eeb8c845c MANIFEST
+SHA1 a6e506087a3af4b683adb07761b1aff14a80e0de META.yml
+SHA1 f013c3fe035daf7145722c783f4b2352b3d7bb93 Makefile.PL
+SHA1 b0e779c080cb4de42efd7d0eac67c803dafd5078 README
+SHA1 de2246b34692c9b301b750bea2ba5e0c4cef5cc7 lib/JSON/Util.pm
+SHA1 4ab6ee99c383949fbbe884264704bae301c837f7 t/01_JSON-Util.t
 SHA1 41533fbd463e42d2ecf1e119eca910c16809d13e t/distribution.t
 SHA1 10c564e5ffe84748070827b350edbf3d6b832b20 t/fixme.t
 SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 t/pod-coverage.t
@@ -32,7 +32,7 @@ SHA1 be8092c65d1a7ddd841272fcd7e825e64a20fe91 t/stock/02.json
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkrUoQEACgkQC0OgUPgL2SdA3gCcCpOo72N8JhZe9srq8YgdBsNs
-SusAn3J4lt2pPjspijjl4US4ocjVFADn
-=JU+X
+iEYEARECAAYFAkuP5HcACgkQC0OgUPgL2Sd4twCcCTA1my8Rr183FcLMRuNfYGVw
+E7MAn3Zhvx7l17rofIuipDS9IL77Lo+i
+=CiuR
 -----END PGP SIGNATURE-----
