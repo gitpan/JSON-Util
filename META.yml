@@ -1,14 +1,15 @@
 ---
-abstract: 'encode/decode with artificial stupidity'
+abstract: 'easy and portable encode/decode of JSON'
 author:
   - 'Jozef Kutej <jkutej@cpan.org>'
 build_requires:
   File::Temp: 0
   Test::Differences: 0
+  Test::Exception: 0
   Test::More: 0
 configure_requires:
   Module::Build: 0.36
-generated_by: 'Module::Build version 0.3603'
+generated_by: 'Module::Build version 0.3607'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,7 +18,7 @@ name: JSON-Util
 provides:
   JSON::Util:
     file: lib/JSON/Util.pm
-    version: 0.04
+    version: 0.05
 requires:
   Carp: 0
   IO::Any: 0
@@ -25,4 +26,4 @@ requires:
   Scalar::Util: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.04
+version: 0.05

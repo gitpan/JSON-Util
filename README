@@ -1,5 +1,5 @@
 NAME
-    JSON::Util - encode/decode with artificial stupidity
+    JSON::Util - easy and portable encode/decode of JSON
 
 SYNOPSIS
         use JSON::Util;

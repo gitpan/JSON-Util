@@ -2,7 +2,7 @@ package JSON::Util;
 
 =head1 NAME
 
-JSON::Util - encode/decode with artificial stupidity
+JSON::Util - easy and portable encode/decode of JSON
 
 =head1 SYNOPSIS
 
@@ -33,7 +33,7 @@ JSON::Util - encode/decode with artificial stupidity
 use warnings;
 use strict;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 use 5.010;
 use feature 'state';
